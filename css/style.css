@@ -1,15 +1,40 @@
-body {background-color: hsl(212, 45%, 89%);}
+body {background-color: hsl(212, 45%, 89%);
+}
 
-div{text-align: center;}
+main {display: flex;
+    justify-content: center;
+}
 
-.box {display: block; width: 220px; height: 350px;   
-    background-color: hsl(0, 0%, 100%);text-align: center;border-radius: 10px; padding-top: 10px;}
+div{text-align: center;
+    width: 170px;
+}
 
-.QR {width: 200px; height: auto; border-radius: 10px;}
+.box { width: 220px; 
+    height: 350px; 
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+}
 
-.ppal{font-family: 'Outfit', sans-serif; font-size: 15px; font-weight: 700; color:hsl(218, 44%, 22%);padding-top: 20px;}
+.QR {width: 200px; 
+    height: auto; 
+    border-radius: 10%;
+    padding: 10px;
+}
+
+.ppal{font-family: 'Outfit', sans-serif; 
+    font-size: 15px; 
+    font-weight: 700; 
+    color:hsl(218, 44%, 22%);
+}
 
 .texto{font-family: 'Outfit', sans-serif; font-size: 12px;font-weight: 400; color:hsl(220, 15%, 55%);}
 
-.attribution {font-family: 'Outfit', sans-serif; font-size: 11px; text-align: center;}
-.attribution a { color: hsl(219, 44%, 51%);text-decoration: none; }
+.attribution {font-family: 'Outfit', sans-serif; 
+    font-size: 11px; 
+    text-align: center; 
+    margin-bottom: 20px;
+}
+
+.attribution a { color: hsl(219, 44%, 51%);
+    text-decoration: none; 
+}
