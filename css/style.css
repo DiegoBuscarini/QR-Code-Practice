@@ -4,9 +4,9 @@ body {background-color: hsl(212, 45%, 89%);
     align-items: center;
 }
 
-main {display: flex;
+/* main {display: flex;
     justify-content: center;
-}
+} */
 
 div{text-align: center;
     width: 170px;
@@ -42,19 +42,15 @@ div{text-align: center;
     font-weight: 400; 
     color:hsl(220, 15%, 55%);
     margin-top: 10px;
-    width: 200px;
+    width: 190px;
 }
 
-.attribution {font-family: 'Outfit', sans-serif; 
-    font-size: 11px; 
-    text-align: center; 
-}
-
-.attribution a { color: hsl(219, 44%, 51%);
-    text-decoration: none; 
-}
-
-footer{display: flex;
+footer {display: flex;
     margin-top: 180px;
+    font-family: 'Outfit', sans-serif; 
+    font-size: 12px; 
+}
 
+a { color: hsl(219, 44%, 51%);
+    text-decoration: none; 
 }
