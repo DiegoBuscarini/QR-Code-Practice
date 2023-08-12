@@ -4,49 +4,43 @@ body {background-color: hsl(212, 45%, 89%);
     align-items: center;
 }
 
-/* main {display: flex;
-    justify-content: center;
-} */
-
 div{text-align: center;
-    width: 170px;
     display: flex;
-    /* align-items: center; */
 }
 
-.box { width: 220px; 
-    height: 340px; 
+.box { width: 350px; 
+    height: 550px; 
     background-color: hsl(0, 0%, 100%);
-    border-radius: 10px;
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 150px;
+    margin-top: 90px;
 }
 
-.QR {width: 200px; 
+.QR {width: 310px; 
     height: auto; 
-    border-radius: 10%;
-    padding: 10px;
+    border-radius: 9%;
+    padding: 20px 20px 25px 20px;
 }
 
 .ppal{font-family: 'Outfit', sans-serif; 
-    font-size: 15px; 
+    font-size: 24px; 
     font-weight: 700; 
-    width: 180px;
+    width: 280px;
     color:hsl(218, 44%, 22%);
 }
 
 .texto{font-family: 'Outfit', sans-serif; 
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 400; 
     color:hsl(220, 15%, 55%);
-    margin-top: 10px;
-    width: 190px;
+    margin-top: 25px;
+    width: 280px;
 }
 
 span {display: flex;
-    margin-top: 180px;
+    margin-top: 45px;
     font-family: 'Outfit', sans-serif; 
     font-size: 12px; 
 }
