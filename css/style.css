@@ -4,24 +4,23 @@ body {background-color: hsl(212, 45%, 89%);
     align-items: center;
 }
 
-div{text-align: center;
-    display: flex;
-}
-
-.box { width: 350px; 
-    height: 550px; 
+.box { height: 550px; 
     background-color: hsl(0, 0%, 100%);
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 90px;
+    margin-top: 80px;
 }
 
 .QR {width: 310px; 
     height: auto; 
     border-radius: 9%;
     padding: 20px 20px 25px 20px;
+}
+
+div{text-align: center;
+    display: flex;
 }
 
 .ppal{font-family: 'Outfit', sans-serif; 
@@ -39,10 +38,10 @@ div{text-align: center;
     width: 280px;
 }
 
-span {display: flex;
-    margin-top: 45px;
-    font-family: 'Outfit', sans-serif; 
+footer {font-family: 'Outfit', sans-serif; 
     font-size: 12px; 
+    position: fixed;
+    bottom: 10px;
 }
 
 a { color: hsl(219, 44%, 51%);
